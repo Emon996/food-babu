@@ -13,6 +13,9 @@ h1{
 #top-bar{
     background-color:  tomato;
 }
+a:hover {
+    color: white;
+  }
 .menu-bar{
     text-decoration: none;
     color: #000133;
