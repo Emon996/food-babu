@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.flex-display{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+#top-bar{
+    background-color:  tomato;
+}
+.menu-bar{
+    text-decoration: none;
+    color: #000133;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.tomato-color{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+    padding-left: 40px;
+}
+.half-width img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(tomato,orange);
+}
+#about-us{
+    background-image: url(./images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    padding:60px 50px 0 90px;
+}
+#our-recipies{
+    text-align: center;
+}
+.one-third-sections{
+    width: 27%;
+    margin-left: 4%;
+    margin-right: 2%;
+    
+}
+.recipies{
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipies img{
+    width: 320px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+#youtube{
+    background: -webkit-linear-gradient(#282828, #312026);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#facebook{
+    background: -webkit-linear-gradient(#4267B2, #898F9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#instagram{
+    background: -webkit-linear-gradient(#405DE6, #E1306C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#social-media-data{
+    width: 90%;
+    padding: 30px 0 70px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.zero-margin{
+    margin-bottom: 0;
+}
+footer{
+    background-color: #101010;
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+footer span{
+    color: orange;
+}
+footer p{
+    color: white;
+}
